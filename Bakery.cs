@@ -61,11 +61,6 @@ namespace Patisserie
       Console.ResetColor();
 
 
-
-
-
-
-
     }
   }
 }
