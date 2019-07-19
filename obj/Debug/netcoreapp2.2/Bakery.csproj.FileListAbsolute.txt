@@ -1,0 +1,11 @@
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\obj\Debug\netcoreapp2.2\Bakery.csprojAssemblyReference.cache
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\obj\Debug\netcoreapp2.2\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\obj\Debug\netcoreapp2.2\Bakery.AssemblyInfoInputs.cache
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\obj\Debug\netcoreapp2.2\Bakery.AssemblyInfo.cs
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\bin\Debug\netcoreapp2.2\Bakery.deps.json
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\bin\Debug\netcoreapp2.2\Bakery.runtimeconfig.json
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\bin\Debug\netcoreapp2.2\Bakery.runtimeconfig.dev.json
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\bin\Debug\netcoreapp2.2\Bakery.dll
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\bin\Debug\netcoreapp2.2\Bakery.pdb
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\obj\Debug\netcoreapp2.2\Bakery.dll
+C:\Users\ABXYLR\Desktop\project\csharp\PierreBakery\obj\Debug\netcoreapp2.2\Bakery.pdb

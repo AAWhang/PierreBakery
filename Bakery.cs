@@ -1,4 +1,5 @@
 using System;
+using Patisserie.Loaf;
 
 
 
@@ -8,22 +9,21 @@ namespace Patisserie
   {
     public static void Main()
     {
-      Plants Ficus = new Plants();
-      string userInput;
-        Console.WriteLine("You have bought a Plant.");
+      Console.WriteLine("Welcome to Pierre's Bakery!");
+      Console.WriteLine("How many loaves of bread would you like? Each loaf is $5 each. We also have a buy 2 get 1 free deal.");
+      int BreadInput = int.Parse(Console.ReadLine());
+      Console.WriteLine("How many Pastries would you like? Pastries are $2 each or $5 for 3.");
+      int PastryInput = int.Parse(Console.ReadLine());
 
-      while (Ficus.PlantAlive == true) {
-        Console.WriteLine("What would you like to do? Please type in the corresponding number.");
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.BackgroundColor = ConsoleColor.Black;
-        Console.Write("( 1. Water plant 2. Feed plant 3. Give plant some sun 4. Check Plant status)");
-        Console.ResetColor();
-        Console.WriteLine();
-        userInput = Console.ReadLine();
-        Ficus.Plantlife(userInput);
-      }
+      Bread bread = new Bread(BreadInput);
+      Pastry pastry = new Pastry(PastryInput);
+      int TotalPrice = bread.BreadTotal + pastry.PastryTotal;
+
       Console.ForegroundColor = ConsoleColor.Red;
-      Console.WriteLine("Game Over. Your Plant is dead. Hint: buying a plant is futile. It always dies.");
+      Console.WriteLine("Your Bread comes out to $" + bread.BreadTotal);
+      Console.WriteLine("Your Pastries comes out to $" + pastry.PastryTotal);
+      Console.WriteLine("You owe $" + TotalPrice);
+
       Console.ResetColor();
 
 

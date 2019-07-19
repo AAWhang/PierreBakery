@@ -1,6 +1,6 @@
 using System;
 
-namespace GreenHouse.plant
+namespace Patisserie.Loaf
 {
   class Bread
   {
@@ -16,10 +16,10 @@ namespace GreenHouse.plant
       BreadTotal = BreadAddTotal();
     }
 
-    private void BreadAddTotal()
+    private int BreadAddTotal()
     {
       int freeBread = BreadQty / 3;
-      int breadtotal = (BreadQty - freeBread) * BreadPrice);
+      int breadtotal = (BreadQty - freeBread) * BreadPrice;
       return breadtotal;
     }
   }
@@ -40,7 +40,7 @@ namespace GreenHouse.plant
       PastryTotal = PastryAddTotal();
     }
 
-    private void PastryAddTotal()
+    private int PastryAddTotal()
     {
       int qtyPrice = PastryQty % 3;
       int qtyDeal = PastryQty / 3;
